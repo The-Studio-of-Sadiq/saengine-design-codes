@@ -1,0 +1,17 @@
+{
+  "$sources": [
+    "SAMPLE: synthetic values, not from any code"
+  ],
+  "locations": {
+    "sample-town-north": {
+      "name": "Sample Town North (fictional)",
+      "zone": 3,
+      "windSpeed": 70.0
+    },
+    "sample-town-coast": {
+      "name": "Sample Town Coast (fictional)",
+      "zone": 2,
+      "windSpeed": 85.0
+    }
+  }
+}

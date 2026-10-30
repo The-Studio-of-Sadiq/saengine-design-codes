@@ -1,0 +1,31 @@
+{
+  "schema": "saengine.codePack/1",
+  "id": "sample-regional-code",
+  "name": "SAMPLE regional code (synthetic, not for design)",
+  "edition": "Sample",
+  "country": "BD",
+  "version": "0.1.0",
+  "extends": "bnbc2020",
+  "covers": [
+    "locations"
+  ],
+  "description": "A SAMPLE of a regional design code package for authors to copy: it extends BNBC 2020 and adds two FICTIONAL towns with made-up seismic zones and wind speeds. The values are synthetic, come from no code or gazette, and must never be used for design.",
+  "sources": [
+    {
+      "id": "SAMPLE",
+      "title": "Synthetic values made up for this sample (no real source)"
+    }
+  ],
+  "clauses": {
+    "locations": [
+      "SAMPLE: synthetic, not from any code"
+    ]
+  },
+  "author": "SAEngine contributors",
+  "licence": "CC0-1.0",
+  "requires": {
+    "packages": {
+      "bnbc2020": ">=1.0.0"
+    }
+  }
+}
